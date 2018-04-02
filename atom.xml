@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mingxiang Zhao&#39;s website</title>
+  
+  <subtitle>A programmer</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://mingxiangzhao.top/"/>
+  <updated>2018-04-02T15:57:14.200Z</updated>
+  <id>http://mingxiangzhao.top/</id>
+  
+  <author>
+    <name>Mingxiang Zhao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fool</title>
+    <link href="http://mingxiangzhao.top/2018/04/01/fool/"/>
+    <id>http://mingxiangzhao.top/2018/04/01/fool/</id>
+    <published>2018-04-01T19:42:40.000Z</published>
+    <updated>2018-04-02T15:57:14.200Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Today is April Fool’s Day. I am
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Extending Bootstrap</title>
+    <link href="http://mingxiangzhao.top/2017/11/08/My-new-post/"/>
+    <id>http://mingxiangzhao.top/2017/11/08/My-new-post/</id>
+    <published>2017-11-08T16:49:07.000Z</published>
+    <updated>2018-04-01T04:34:14.781Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;Here are some free plugins, add-ons, and component for
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>This is the solution for Josephus problem.</title>
+    <link href="http://mingxiangzhao.top/2017/11/07/hello-world/"/>
+    <id>http://mingxiangzhao.top/2017/11/07/hello-world/</id>
+    <published>2017-11-07T20:40:51.424Z</published>
+    <updated>2018-04-01T04:33:16.962Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;h2 id=&quot;Josephus-Problem&quot;&gt;&lt;a href=&quot;#Josephus-Problem&quot; class=&quot;headerlink&quot; title=&quot;Josephus Problem&quot;&gt;&lt;/a&gt;Josephus
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
