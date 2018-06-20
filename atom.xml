@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mingxiangzhao.top/"/>
-  <updated>2018-04-02T15:57:14.200Z</updated>
+  <updated>2018-06-20T04:22:41.447Z</updated>
   <id>http://mingxiangzhao.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kylin</title>
+    <link href="http://mingxiangzhao.top/2018/06/19/kylin/"/>
+    <id>http://mingxiangzhao.top/2018/06/19/kylin/</id>
+    <published>2018-06-20T03:55:05.000Z</published>
+    <updated>2018-06-20T04:22:41.447Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Apache-Kylin-Installation-in-Hortonworks-HDP-Sandbox&quot;&gt;&lt;a href=&quot;#Apache-Kylin-Installation-in-Hortonworks-HDP-Sandbox&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Fool</title>
