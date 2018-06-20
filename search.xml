@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[kylin]]></title>
+    <title><![CDATA[Apache Kylin Installation in Hortonworks HDP Sandbox]]></title>
     <url>%2F2018%2F06%2F19%2Fkylin%2F</url>
-    <content type="text"><![CDATA[Apache Kylin Installation in Hortonworks HDP SandboxPrerequisite: Install Oracle VirtualBoxDownload the HDP on Hortonworks SandboxImport the HDP on Hortonworks Sandbox in the Oracle VirtualBoxAfter imported, start the VM, then login use the credentials (username/password): root/hadoopThen go to the start_scripts folder use:1cd start_scripts/Add the port 7070 to the start_sandbox.sh by using the vi editor1vi start_sandbox.shScroll down to the end of the port line like ‘-p 2222:22 \’, insert the following code into the next line:1-p 7070:7070 \Then use “:wq” to save and exit the vi editor.Now stop the sandbox, and remove the existing sandbox12docker stop sandbox-hdpdocker rm sandbox-hdpThen restart the hdp1init 6Go the browser, go to the SSH client console “localhost:4200”Username is root, password is hadoop]]></content>
+    <content type="text"><![CDATA[Prerequisite: Install Oracle VirtualBoxDownload the HDP on Hortonworks SandboxImport the HDP on Hortonworks Sandbox in the Oracle VirtualBoxAfter imported, start the VM, then login use the credentials (username/password): root/hadoopThen go to the start_scripts folder use:1cd start_scripts/Add the port 7070 to the start_sandbox.sh by using the vi editor1vi start_sandbox.shScroll down to the end of the port line like ‘-p 2222:22 \’, insert the following code into the next line:1-p 7070:7070 \Then use “:wq” to save and exit the vi editor.Now stop the sandbox, and remove the existing sandbox12docker stop sandbox-hdpdocker rm sandbox-hdpThen restart the hdp1init 6Go the browser, go to the SSH client console “localhost:4200”Username is root, password is hadoop]]></content>
   </entry>
   <entry>
     <title><![CDATA[Fool]]></title>
