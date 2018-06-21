@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Apache Kylin Installation in Hortonworks HDP Sandbox]]></title>
     <url>%2F2018%2F06%2F19%2Fkylin%2F</url>
-    <content type="text"><![CDATA[Prerequisite: Install Oracle VirtualBoxDownload the HDP on Hortonworks SandboxImport the HDP on Hortonworks Sandbox in the Oracle VirtualBoxAfter imported, start the VM, then login use the credentials (username/password): root/hadoopThen go to the start_scripts folder use:1cd start_scripts/Add the port 7070 to the start_sandbox.sh by using the vi editor1vi start_sandbox.shScroll down to the end of the port line like ‘-p 2222:22 \’, insert the following code into the next line:1-p 7070:7070 \Then use “:wq” to save and exit the vi editor.Now stop the sandbox, and remove the existing sandbox12docker stop sandbox-hdpdocker rm sandbox-hdpThen restart the hdp1init 6Go the browser, go to the SSH client console “localhost:4200”Username is root, password is hadoop]]></content>
+    <content type="text"><![CDATA[Prerequisite: Install Oracle VirtualBoxDownload the HDP on Hortonworks SandboxImport the HDP on Hortonworks Sandbox in the Oracle VirtualBoxAfter imported, start the VM, then login use the credentials (username/password): root/hadoopThen go to the start_scripts folder use:1cd start_scripts/Add the port 7070 to the start_sandbox.sh by using the vi editor1vi start_sandbox.shScroll down to the end of the port line like ‘-p 2222:22 \’, insert the following code into the next line:1-p 7070:7070 \Then use “:wq” to save and exit the vi editor.Now stop the sandbox, and remove the existing sandbox12docker stop sandbox-hdpdocker rm sandbox-hdpThen restart the hdp1init 6In the browser, go to “localhost:8080/#/login”, use the maria_dev/maria_dev as username/password to login. Start the HBase and Kafka. (To do this, turn off the maintenance mode of the HBase and Kafka, then “restart all”, respectively.)Go the browser, go to the SSH client console, which is “localhost:4200”.Username is “root”, password is “hadoop”.It may require you to change the password. Change it.Download the Kylin for HBase on Kylin Website, copy the URL, then download it using1wget http://apache.mirrors.ionfish.org/kylin/apache-kylin-2.3.1/apache-kylin-2.3.1-hbase1x-bin.tar.gzExtract the tar file:1tar fxvz apache-kylin-2.3.1-hbase1x-bin.tar.gzYou can use the “tab” to autocomplete the file name after you type the “apa” in the above command.Then make a copy of apache-kylin-2.3.1-bin:1mv apache-kylin-2.3.1-bin/ /opt/Now, edit the .bash_profile to modify the environmental variable:1vi .bash_profileModify the file as follow:1234KYLIN_HOME=/opt/apache-kylin-2.3.1-binexport KYLIN_HOMEPATH=$PATH:$HOME/bin:$KYLIN_HOME/binSave and exit the file:1:wqUse the source command to put it in effect:1source .bash_profileNow, check the Kylin environment:1check-env.shIf you see “KYLIN_HOME is set to /opt/apache-kylin-2.3.1-bin”, you have successfully set the environmental variable.It’s time to start the kylin server!1kylin.sh startGo the browser: “localhost:7070/kylin/login”, username: admin, password: kylinYou are all set!]]></content>
   </entry>
   <entry>
     <title><![CDATA[Fool]]></title>
@@ -12,12 +12,12 @@
   </entry>
   <entry>
     <title><![CDATA[Extending Bootstrap]]></title>
-    <url>%2F2017%2F11%2F08%2FMy-new-post%2F</url>
+    <url>%2F2017%2F11%2F08%2Fextending_bootstrap%2F</url>
     <content type="text"><![CDATA[Here are some free plugins, add-ons, and component for bootstrapDatepickerBootstrap star ratingTabcordion.jsA simple jQuery plugin that transforms a set of Bootstrap tabs into a Bootstrap accordion.]]></content>
   </entry>
   <entry>
     <title><![CDATA[This is the solution for Josephus problem.]]></title>
-    <url>%2F2017%2F11%2F07%2Fhello-world%2F</url>
+    <url>%2F2017%2F11%2F07%2FJosephus%2F</url>
     <content type="text"><![CDATA[Josephus ProblemFunction definition1public int[] myJosephus(int n, int k) &#123;&#125;Initialize data structure123int killIndex = 0;int[] res = new int[n];ArrayList&lt;Integer&gt; list = new ArrayList&lt;&gt;();Add all people into a list123for (int i = 0; i &lt; n; i++) &#123; list.add(i);&#125;Kill people, add killIndex into result array and remove killed people from the list12345for (int i = list.size() - 1; i &gt;= 0; i--) &#123; killIndex = (killIndex + k - 1) % list.size(); res[n - i - 1] = list.get(killIndex); list.remove(killIndex); &#125;Finally, remember to return res, and we can get the simulation of Josephus problem.]]></content>
   </entry>
 </search>

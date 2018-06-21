@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mingxiangzhao.top/"/>
-  <updated>2018-06-20T04:29:02.697Z</updated>
+  <updated>2018-06-21T04:03:34.254Z</updated>
   <id>http://mingxiangzhao.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://mingxiangzhao.top/2018/06/19/kylin/"/>
     <id>http://mingxiangzhao.top/2018/06/19/kylin/</id>
     <published>2018-06-20T03:55:05.000Z</published>
-    <updated>2018-06-20T04:29:02.697Z</updated>
+    <updated>2018-06-21T04:03:34.254Z</updated>
     
     <summary type="html">
     
@@ -62,10 +62,10 @@
   
   <entry>
     <title>Extending Bootstrap</title>
-    <link href="http://mingxiangzhao.top/2017/11/08/My-new-post/"/>
-    <id>http://mingxiangzhao.top/2017/11/08/My-new-post/</id>
+    <link href="http://mingxiangzhao.top/2017/11/08/extending_bootstrap/"/>
+    <id>http://mingxiangzhao.top/2017/11/08/extending_bootstrap/</id>
     <published>2017-11-08T16:49:07.000Z</published>
-    <updated>2018-04-01T04:34:14.781Z</updated>
+    <updated>2018-06-21T04:04:34.447Z</updated>
     
     <summary type="html">
     
@@ -84,10 +84,10 @@
   
   <entry>
     <title>This is the solution for Josephus problem.</title>
-    <link href="http://mingxiangzhao.top/2017/11/07/hello-world/"/>
-    <id>http://mingxiangzhao.top/2017/11/07/hello-world/</id>
+    <link href="http://mingxiangzhao.top/2017/11/07/Josephus/"/>
+    <id>http://mingxiangzhao.top/2017/11/07/Josephus/</id>
     <published>2017-11-07T20:40:51.424Z</published>
-    <updated>2018-04-01T04:33:16.962Z</updated>
+    <updated>2018-06-21T04:04:15.697Z</updated>
     
     <summary type="html">
     
